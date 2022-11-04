@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    background-size: cover;
+}
+nav {
+    background: rgba(0, 0, 0, 0.87);
+    height: 82px;
+    width: 100%;
+}
+.logo {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 100px;;
+}
+ul {
+    float: right;
+    margin-right: 30px;
+}
+li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 25px;
+}
+.menu {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+.menu:hover {
+    background: rgb(255, 0, 0);
+    color: black;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+/*under-interface*/
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+}
+figure div {
+    float: left;
+    width: 20%;
+}
+figure img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 60s infinite;
+}
+@keyframes animate {
+    0%{left:0%;}
+    10%{left:0%;}
+    12%{left:-100%;}
+    22%{left:-100%;}
+    24%{left:-200%;}
+    34%{left:-200%;}
+    36%{left:-300%;}
+    46%{left:-300%;}
+    48%{left:-400%;}
+    58%{left:-400%;}
+    60%{left:-300%;}
+    70%{left:-300%;} 
+    72%{left:-200%;}
+    82%{left:-200%;}
+    84%{left:-100%;}
+    94%{left:-100%;}
+    96%{left:0%;}
+    98%{left:0%;}
+}
+p {
+    position: fixed;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+}
+.ovl {
+    position: fixed;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    position: fixed;
+    color: white;
+    background: rgba(0, 0, 0, 0.541);
+    border-radius: 20px 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 440px;
+    padding-top: 50px;
+    margin-top: 140px;
+    width: 45%;
+}
+button {
+    position: fixed;
+    text-align: center;
+    color: whitesmoke;
+    border: solid 3px whitesmoke;
+    background: transparent;
+    border-radius: 20px 20px;
+    margin-left: 740px;
+    margin-top: 300px;
+    width: 10%;
+    height: 80px;
+    cursor: pointer;
+}
+button:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border: solid 3px red;
+    color: red;
+}

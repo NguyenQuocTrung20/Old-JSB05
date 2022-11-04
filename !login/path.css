@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    background-size: cover;
+}
+nav {
+    background: rgba(0, 0, 0, 0.87);
+    height: 90px;
+    width: 100%;
+}
+.logo {
+    color: rgb(30, 123, 209);
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 100px;;
+}
+ul {
+    float: right;
+    margin-right: 30px;
+}
+li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 25px;
+}
+.menu {
+    color: rgb(30, 123, 209);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+.menu:hover {
+    background-color: rgb(30, 123, 209);
+    color: black;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+/*bg-interface*/
+.main-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bm9kZWpzfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    height: 731px;
+}
+.alarm-content {
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+.ac-right {
+    width: 25%;
+    height: 680px;
+}
+.ac-mid {
+    width: 50%;
+    height: 680px;
+    text-align: center; 
+    font-size: 12px;
+    align-items: center;
+}
+.ac-right {
+    width: 25%;
+    height: 680px;
+}
+.ac-mid-bott {
+    width: 100%;
+    height: 100px;
+}
+/*login*/
+.login-top {
+    width: 100%;
+    height: 70px;
+}
+.login-bottom {
+    width: 100%;
+    height: 610px;
+    display: flex;
+}
+.login-right {
+    width: 20%;
+    height: 610px;
+}
+.login-left {
+    width: 20%;
+    height: 610px;
+}
+/*login form*/
+.login {
+    width: 60%;
+    height: 500px;
+    background: rgba(44, 44, 44, 0.856);
+    border-radius: 20px 20px;
+}
+.li-top {
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+}
+.li-bott {
+    width: 100%;
+    height: 540px;
+}
+.Name {
+    width: 70%;
+    height: 50px;
+    border-radius: 20px 20px;
+    text-align: center;
+    border: solid 3px white;
+    background: rgba(77, 77, 77, 0.589);
+    color: white;
+}
+.Pass {
+    width: 70%;
+    height: 50px;
+    border-radius: 20px 20px;
+    text-align: center;
+    border: solid 3px white;
+    background: rgba(77, 77, 77, 0.589);
+    color: white;
+}
+.forgo {
+    margin-bottom: 90px;
+    color: white;
+}
+.sign {
+    margin-top: 10px;
+    color: white;
+}
+button {
+    width: 50%;
+    height: 50px;
+    border-radius: 20px 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: 70px;
+}
+button:hover {
+    background: rgba(128, 128, 128, 0.5);
+}
+h1 {
+    color: white;
+    cursor: pointer;
+}
+.others {
+    margin-top: -50px;
+}
